@@ -12,7 +12,7 @@ TDataPointArray::TDataPointArray(QVector<float> *data, QObject *parent) : QObjec
     this->generateColor();
     this->DoFFT();
 }
-
+//dfasf
 TDataPointArray::TDataPointArray(QIODevice *IODevice, QAudioFormat *m_AudioFormat, QObject *parent) : QObject(parent)
 {
     this->SetData(IODevice, m_AudioFormat);
